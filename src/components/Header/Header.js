@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import TokenService from '../../services/token-service'
 import UserContext from '../../contexts/UserContext'
-import './Header.css'
+import './Header2.css'
 
 class Header extends Component {
   static contextType = UserContext
@@ -31,18 +31,18 @@ class Header extends Component {
   renderLoginLink() {
     return (
       <nav>
-        <Link to='/login'>Login</Link>
+        <Link className="entry" to='/login'>Login</Link>
         {' '}
-        <Link to='/register'>Sign up</Link>
+        <Link className="entry" to='/register'>Sign up</Link>
       </nav>
     )
   }
 
   render() {
     return (
-      <header>
+      <header className="title">
         <h1>
-          <Link to='/'>
+          <Link className='aTitle' to='/'>
             Spaced repetition
           </Link>
         </h1>

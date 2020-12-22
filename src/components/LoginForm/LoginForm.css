@@ -1,0 +1,18 @@
+.login{
+    font-family: 'Shrikhand', cursive;
+}
+form.LoginForm {
+    
+    border: solid;
+    margin: 0px 31%;
+    height: 16em;
+    border-radius: 9px;
+    background-color: #8e8e8e70;
+    box-shadow: 3px 3px 3px;
+    overflow-x: auto;
+}
+
+.loginB {
+    position: relative;
+    top: 3em;
+}

@@ -1,0 +1,32 @@
+/* Shrikhand */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin:0;
+    text-align: center;
+  
+}
+html{
+    background-image: url(../../img/paris2.png);
+    background-repeat: no-repeat;
+    background-size: 120em;
+    /* background-size: cover; */
+}
+body{
+    
+        /* background-image: url(../../img/paris2.png);
+        background-repeat: no-repeat;
+        background-size: 105% 287%;
+        background-size: cover; */
+
+}
+
+                                            /* media */
+/* @media all and (max-width: 350px) {
+
+}
+
+@media all and (min-width: 350px) {
+
+} */
