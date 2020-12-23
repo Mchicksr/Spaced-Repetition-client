@@ -6,7 +6,7 @@ class DashboardRoute extends Component {
     return (
       <section>
         <p>French</p>
-        {/* <Dashboard /> */}
+        <Dashboard />
       </section>
     );
   }
